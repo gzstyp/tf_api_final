@@ -22,7 +22,6 @@ public class TestController {
     @GetMapping(value = "seataCommit")
     public Boolean seataCommit() {
         userService.seataCommit();
-        int i=1/0;
         return true;
     }
 }
